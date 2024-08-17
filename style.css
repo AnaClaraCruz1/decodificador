@@ -1,0 +1,128 @@
+:root {
+--color-blue-primary : #1B63F2; 
+--color-black : #061726; 
+--color-blue-second: #0D9FD9; 
+--color-green: #667309; 
+--color-peach: #e3cbb0; 
+--color-white:#D8DFE8;
+--color-blue-terc: #0A3871;
+
+}
+* {
+    margin: 0;
+    padding: 0;  
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    width: auto;
+    height: auto;
+}
+
+.logo__alura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 6%;
+}
+body {
+    background-image: url(/img/rainbow.jpg);
+    width: 90%;
+    height: 90%;
+    image-rendering: auto;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+section {
+    flex: 1; /* Cada section ocupa metade da tela */
+    margin: 30px; /* Espaçamento entre as sections */
+    padding: 20px; /* Espaçamento interno das sections */
+    background-color: transparent;
+    border: none;
+}
+.text__area {
+    background-color:  rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 24px;
+    color: var(--color-black);
+    margin-top: 90px;
+    text-transform: lowercase;
+    text-align: center;
+    padding-top: 32px;
+}
+::placeholder { color: var(--color-black)}
+    .text__area:focus {
+        outline: none;
+    }
+.mensagem {
+    background: rgba(255, 255, 255, 0.5); ;
+    
+    border: none;
+    border-radius: 24px;
+    color: var(--color-black);
+    margin-left: 38px;
+    margin-top: 20px;
+    padding-left: 70px;
+    position: fixed;
+}  
+ 
+.mensagem:focus {
+    outline: none;
+}
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+
+.btn__desencriptar {
+    background: var(--color-white);
+    border: 1px solid var(--color-blue-primary);
+    border-radius: 24px;
+    color:var(--color-blue-terc);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn__encriptar {
+    background-color: var(--color-blue-terc);
+    border: 1px solid var(--color-blue-primary);
+    border-radius: 24px;
+    color:var(--color-white);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.btn__copiar {
+    border: 1px solid var(--color-blue-primary);
+    border-radius: 24px;
+    color: var(--color-blue-terc);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 460px;
+    position: absolute;
+    width: 400px;
+    align-content: center;
+}
+    
+
+.informacao {
+    color: #495057;
+    font-size: 18px;
+    text-align: center;
+}
+.rodape {
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+    background-color: #0A3871;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
