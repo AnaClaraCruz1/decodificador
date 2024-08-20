@@ -59,18 +59,26 @@ section {
     }
 .mensagem {
     background: rgba(255, 255, 255, 0.5); ;
-    
     border: none;
     border-radius: 24px;
     color: var(--color-black);
     margin-left: 38px;
-    margin-top: 20px;
+    margin-top: 5px;
     padding-left: 70px;
     position: fixed;
 }  
  
 .mensagem:focus {
     outline: none;
+}
+.mensagem__img {
+    width: 200px;
+    height: 200px;
+    align-content: center;
+    padding: 250px 0 0 250px;
+    opacity: 0.2; 
+    position: absolute;
+    z-index: 1;
 }
 .botoes {
     display: flex;
@@ -104,11 +112,10 @@ section {
     color: var(--color-blue-terc);
     cursor: pointer;
     height: 67px;
-    margin-left: 108px;
-    margin-top: 460px;
+    margin: 500px 125px ;
     position: absolute;
     width: 400px;
-    align-content: center;
+    
 }
     
 
