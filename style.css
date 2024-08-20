@@ -18,7 +18,7 @@
 
 html, body {
     height: 100%;
-    overflow: hidden; /* Remove barras de rolagem */
+    overflow: hidden;
 }
 
 body {
@@ -32,7 +32,7 @@ body {
 
 .cabecalho {
     padding: 2% 0 0 15%;
-    height: 10vh; /* Ajuste conforme necessário */
+    height: 10vh; 
 }
 
 .cabecalho__menu {
@@ -51,7 +51,7 @@ body {
     justify-content: center;
     gap: 20px;
     padding: 5%;
-    overflow: auto; /* Permite rolagem interna se necessário */
+    
 }
 
 .apresentacao__conteudo {
@@ -73,8 +73,8 @@ body {
     text-transform: lowercase;
     text-align: center;
     width: 100%;
-    height: 300px; /* Ajuste conforme necessário */
-    font-size: 16px; /* Ajuste conforme necessário */
+    height: 300px; 
+    font-size: 16px; 
 }
 
 ::placeholder {
@@ -142,8 +142,8 @@ body {
     text-transform: lowercase;
     text-align: center;
     width: 100%;
-    height: 350px; /* Ajuste conforme necessário */
-    font-size: 16px; /* Ajuste conforme necessário */
+    height: 350px; 
+    font-size: 16px; 
     padding: 10px;
 }
 
@@ -158,7 +158,7 @@ body {
     text-align: center;
     font-size: 1.5rem;
     font-weight: 400;
-    height: 10vh; /* Ajuste conforme necessário */
+    height: 10vh; 
     display: flex;
     justify-content: center;
     align-items: center;
