@@ -1,44 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt br">
 
 <head>
     <meta charset="UTF8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="htpps://fonts.gstatic.com" crossorigin>
     <title>Alura Decodificador</title>
-    <link rel="icon" href="img/alura_ico.ico">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="icon" href="img/alura_ico.ico">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <img class="logo__alura" src="img/logo_alura.png" alt="logo da Alura">
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <img class="logo__alura" src="img/logo_alura.png" alt="logo da Alura">
+            <h1>Decodificador de <span class="titulo-destaque">texto</span></h1>
+        </nav>
     </header>
-    <main>
-        <section>
-            <textarea class="text__area" cols="50" rows="6" placeholder=" Digite seu texto "></textarea>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <textarea class="text__area" cols="70" rows="20" placeholder=" Digite seu texto aqui "></textarea>
             <div class="informacao">
-                <h6>Apenas letras minúsculas e sem acento</h6>
+                <h6>Por favor, insira o texto sem acentos, utilizando apenas letras minúsculas e sem caracteres especiais.</h6>
             </div>
             <div class="botoes">
                 <button class="btn__encriptar" onclick="btnEncriptar()">Criptografar</button>
                 <button class="btn__desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
             </div>
-        </section>
-        <section>
-            <textarea class="mensagem" cols="30" rows="12"></textarea>
-            <img class="mensagem__img" src="img/img-msg-cadeado.svg" alt="mensagem com cadeado">
-            <button class="btn__copiar" onclick="btnCopiar()">Copiar</button>
-        </section>
+        </section >
+        <section class="apresentacao__conteudo">
+        <div class="apresentacao__mensagem">
+            <textarea class="mensagem" cols="70" rows="30"></textarea>
+        <img class="mensagem__img" src="img/img-msg-cadeado.svg" alt="mensagem com cadeado">
+        <button class="btn__copiar" onclick="btnCopiar()">Copiar</button>
+        </div>
+    </section>
     </main>
     <footer class="rodape">
         <p>Desenvolvido por Ana Clara Cruz</p>
     </footer>
     <script src="script.js"></script>
-
 </body>
 
 </html>
