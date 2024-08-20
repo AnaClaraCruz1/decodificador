@@ -42,12 +42,13 @@ body {
 }
 
 .apresentacao {
-   
+    width: 90%;
+    height: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 82px;
-    padding: 0% 15%;
+    padding: 5%;
 }
 
 .apresentacao__conteudo {
@@ -64,10 +65,9 @@ body {
     border: none;
     border-radius: 24px;   
     color: var(--color-black);
-    margin-top: 90px;
     text-transform: lowercase;
     text-align: center;
-    padding-top: 32px;
+    
 }
 ::placeholder { 
     font-size: 25px;
@@ -98,8 +98,6 @@ body {
 .mensagem__img {
     width: 200px;
     height: 200px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 400;
     padding-top: 100px;
     align-content: center;
     opacity: 0.2; 
@@ -152,6 +150,7 @@ body {
     color: var(--color-black);
     text-transform: lowercase;
     text-align: center;
+    padding-bottom: 100px;
     
    
 }  
@@ -162,7 +161,7 @@ body {
 
 
 .rodape {
-    padding: 24px;
+    padding: 14px;
     color: var(--color-white);
     background-color: var(--color-blue-terc);
     text-align: center;
